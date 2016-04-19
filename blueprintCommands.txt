@@ -1,0 +1,3 @@
+curl -u admin:admin -H "X-Requested-By: ambari" -X POST -d @blueprints/baseStack.json http://c7001.ambari.apache.org:8080/api/v1/blueprints/baseStack
+
+curl -u admin:admin -H "X-Requested-By: ambari" -X POST -d @blueprints/createBaseStack.json http://c7001.ambari.apache.org:8080/api/v1/clusters/MySingleNodeCluster

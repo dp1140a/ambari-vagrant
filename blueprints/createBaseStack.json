@@ -1,0 +1,13 @@
+{
+  "blueprint" : "baseStack",
+  "host_groups" :[
+    {
+      "name" : "host_group_1", 
+      "hosts" : [         
+        {
+          "fqdn" : "c7001.ambari.apache.org"
+        }
+      ]
+    }
+  ]
+}
